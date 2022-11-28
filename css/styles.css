@@ -185,6 +185,15 @@ p {
   }
 }
 
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  margin-bottom: 1.25rem;
+  background-color: var(--clr-primary-5);
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*
 =============== 
 Navbar
@@ -377,6 +386,36 @@ Hero
 ===============
 */
 /* underline added to globals */
+.hero .underline {
+  margin-bottom: 0.5rem;
+  margin-left: 0;
+}
+
+.hero-img {
+  display: none;
+}
+
+.hero {
+  background-color: var(--clr-primary-10);
+}
+
+.hero-center {
+  height: calc(100vh - 5rem);
+  display: grid;
+  place-items: center;
+}
+
+.hero-info h4 {
+  color: var(--clr-grey-4);
+}
+
+.hero-btn {
+  margin-top: 1.25rem;
+}
+
+.hero-icons {
+  justify-content: flex-start;
+}
 
 /*
 =============== 
