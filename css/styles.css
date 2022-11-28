@@ -447,13 +447,16 @@ About
   gap: 3rem 2rem;
 }
 
-.about-title {
-  text-align: left;
-  margin-bottom: 2rem;
+.about-info {
+  text-align: center;
 }
 
-.about-title .underline {
-  margin-left: 0;
+.about-info p {
+  text-align: left;
+}
+
+.about-title {
+  margin-bottom: 2rem;
 }
 
 .about-img {
@@ -466,6 +469,23 @@ About
 }
 
 @media screen and (min-width: 992px) {
+
+  .about-center {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .about-info {
+    text-align: left;
+  }
+
+  .about-title {
+    text-align: left;
+  }
+
+  .about-title .underline {
+    margin-left: 0;
+  }
 
   .about-img::before {
     content: "";
