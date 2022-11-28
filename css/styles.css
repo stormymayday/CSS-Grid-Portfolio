@@ -261,10 +261,6 @@ Navbar
 
 @media screen and (min-width: 768px) {
 
-  .nav-logo {
-    padding-left: 1.5rem;
-  }
-
   .nav {
     background-color: var(--clr-primary-10);
   }
@@ -302,8 +298,6 @@ Navbar
   }
 
 }
-
-
 
 /*
 =============== 
@@ -426,7 +420,8 @@ Hero
   }
 
   .hero-center {
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
   }
 
   .hero-photo {
