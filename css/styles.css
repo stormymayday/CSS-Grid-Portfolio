@@ -252,18 +252,6 @@ Navbar
   justify-self: end;
 }
 
-/* Navbar Fixed */
-.navbar-fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: var(--clr-white);
-  z-index: 2;
-  box-shadow: var(--light-shadow);
-}
-
-
 @media screen and (min-width: 768px) {
 
   .nav {
@@ -302,6 +290,17 @@ Navbar
     align-items: center;
   }
 
+}
+
+/* Navbar Fixed */
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--clr-white);
+  z-index: 2;
+  box-shadow: var(--light-shadow);
 }
 
 /*
