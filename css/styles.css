@@ -545,9 +545,25 @@ Services
   background-color: var(--clr-white);
 }
 
+/* two column layout */
+@media screen and (min-width: 676px) {
 
-/* small screen layout setup */
+  .services-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
 
+}
+
+/* three column layout */
+@media screen and (min-width: 992px) {
+
+  .services-center {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
 
 /*
 =============== 
