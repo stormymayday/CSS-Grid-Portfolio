@@ -443,8 +443,6 @@ Hero
 About
 ===============
 */
-/* section title added to globals */
-
 .about-center {
   display: grid;
   gap: 3rem 2rem;
@@ -471,6 +469,7 @@ About
   position: relative;
 }
 
+/* about section two column layout */
 @media screen and (min-width: 992px) {
 
   .about-center {
@@ -545,7 +544,7 @@ Services
   background-color: var(--clr-white);
 }
 
-/* two column layout */
+/* services section two column layout */
 @media screen and (min-width: 676px) {
 
   .services-center {
@@ -556,7 +555,7 @@ Services
 
 }
 
-/* three column layout */
+/* services section three column layout */
 @media screen and (min-width: 992px) {
 
   .services-center {
@@ -652,6 +651,15 @@ Projects
 
 /* projects section three column layout */
 @media screen and (min-width: 992px) {
+
+  .projects-center {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+/* projects section custom grid layout */
+@media screen and (min-width: 1170px) {
 
   .projects-center {
     grid-template-columns: repeat(3, 1fr);
