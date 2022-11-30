@@ -570,6 +570,12 @@ Services
 Projects
 ===============
 */
+.projects .btn {
+  margin-top: 2rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 /*
 =============== 
