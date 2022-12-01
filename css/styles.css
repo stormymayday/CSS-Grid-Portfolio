@@ -516,6 +516,11 @@ About
 Services
 ===============
 */
+
+.services {
+  display: none;
+}
+
 .service {
   background-color: var(--clr-white);
   padding: 3rem 1.5rem;
