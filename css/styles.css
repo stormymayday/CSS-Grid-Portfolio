@@ -495,14 +495,14 @@ About
   }
 
   .about-img::before {
-    content: "";
+    /* content: "";
     position: absolute;
     width: 100%;
     height: 100%;
     border: 0.25rem solid var(--clr-primary-5);
     top: 2rem;
     left: -2rem;
-    border-radius: var(--radius);
+    border-radius: var(--radius); */
   }
 
 }
@@ -1044,6 +1044,10 @@ Footer
 Single Page
 ===============
 */
+.single-page {
+  /* background-color: var(--clr-primary-10); */
+  min-height: calc(100vh - 5rem - 116px);
+}
 
 /*
 =============== 
