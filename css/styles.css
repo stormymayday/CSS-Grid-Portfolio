@@ -756,6 +756,16 @@ Connect
       0% 75%);
 }
 
+.connect {
+  -webkit-clip-path: polygon(50% 0%,
+      100% 10%,
+      100% 90%,
+      50% 100%,
+      0 90%,
+      0 10%);
+  clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
+}
+
 .video-banner .section-title {
   margin-bottom: 2rem;
 }
