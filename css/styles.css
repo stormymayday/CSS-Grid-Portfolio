@@ -448,6 +448,10 @@ Hero
 About
 ===============
 */
+.about {
+  display: none;
+}
+
 .about-center {
   display: grid;
   gap: 3rem 2rem;
