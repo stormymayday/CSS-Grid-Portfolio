@@ -940,6 +940,42 @@ Timeline
 Blog
 ===============
 */
+.blog {
+  background-color: var(--clr-grey-10);
+}
+
+.card {
+  height: 27rem;
+  position: relative;
+  perspective: 1500px;
+}
+
+.card-side {
+  backface-visibility: hidden;
+  transition: all 2s linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-front {
+  background-color: red;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  background-color: green;
+}
+
+.card:hover .card-front {
+  transform: rotateY(-180deg);
+}
+
+.card:hover .card-back {
+  transform: rotateY(0);
+}
 
 /*
 =============== 
