@@ -757,13 +757,13 @@ Connect
 }
 
 .connect {
-  -webkit-clip-path: polygon(50% 0%,
+  /* -webkit-clip-path: polygon(50% 0%,
       100% 10%,
       100% 90%,
       50% 100%,
       0 90%,
       0 10%);
-  clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
+  clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%); */
 }
 
 .video-banner .section-title {
