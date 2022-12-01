@@ -1024,6 +1024,21 @@ Blog
 Footer
 ===============
 */
+.footer {
+  background-color: #222;
+  padding-bottom: 2rem;
+  display: grid;
+  place-items: center;
+}
+
+.footer .social-icon {
+  color: var(--clr-grey-10);
+}
+
+.footer .social-icon:hover {
+  color: var(--clr-primary-5);
+}
+
 /*
 =============== 
 Single Page
