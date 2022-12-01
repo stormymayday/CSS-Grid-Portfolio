@@ -1060,6 +1060,10 @@ Single Page
   min-height: calc(100vh - 5rem - 116px);
 }
 
+.single-page .about-img::before {
+  border: none;
+}
+
 /*
 =============== 
 Products Page
