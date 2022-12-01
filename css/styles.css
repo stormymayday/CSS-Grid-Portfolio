@@ -736,11 +736,14 @@ Connect
 }
 
 .video-banner {
+  border-radius: var(--radius);
+  max-width: 90vw;
   background-color: var(--clr-primary-10);
-  padding: 3rem 5rem 12rem 5rem;
+  /* padding: 3rem 5rem 12rem 5rem; */
+  padding: 3rem 5rem 3rem 5rem;
   text-align: center;
 
-  -webkit-clip-path: polygon(0% 0%,
+  /* -webkit-clip-path: polygon(0% 0%,
       100% 0%,
       100% 75%,
       75% 75%,
@@ -753,7 +756,7 @@ Connect
       75% 75%,
       75% 100%,
       50% 75%,
-      0% 75%);
+      0% 75%); */
 }
 
 .connect {
