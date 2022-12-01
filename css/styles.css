@@ -950,6 +950,7 @@ Blog
 ===============
 */
 .blog {
+  display: none;
   background-color: var(--clr-grey-10);
 }
 
