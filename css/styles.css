@@ -1146,6 +1146,17 @@ Single Page
   border: none;
 }
 
+.single-page p {
+  text-align: center;
+  max-width: 35rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.single-page .contact-form {
+  margin: 0 auto;
+}
+
 /*
 =============== 
 Products Page
