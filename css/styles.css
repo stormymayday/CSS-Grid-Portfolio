@@ -53,7 +53,6 @@ Variables
 Global Styles
 ===============
 */
-
 *,
 ::after,
 ::before {
@@ -809,6 +808,7 @@ Skills
 }
 
 .skills {
+  display: none;
   background-color: var(--clr-primary-10);
 }
 
