@@ -20,3 +20,7 @@ closeBtn.addEventListener("click", function () {
 });
 // set year
 date.innerHTML = new Date().getFullYear();
+// disabling the submit button
+document.getElementById("submit").addEventListener("click", function (event) {
+  event.preventDefault()
+});
