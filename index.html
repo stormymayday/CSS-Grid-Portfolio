@@ -1,895 +1,943 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home</title>
+        <!-- favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./images/favicon_io/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon_io/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./images/favicon_io/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <!-- end of favicon -->
 
-  <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon_io/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon_io/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon_io/favicon-16x16.png" />
-  <link rel="manifest" href="/site.webmanifest" />
-  <!-- end of favicon -->
+        <!-- font-awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- end of font-awesome -->
 
-  <!-- font-awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- end of font-awesome -->
+        <!-- css -->
+        <link rel="stylesheet" href="./css/styles.css" />
+        <!-- end of css -->
+    </head>
 
-  <!-- css -->
-  <link rel="stylesheet" href="./css/styles.css" />
-  <!-- end of css -->
+    <body>
+        <!-- navbar -->
+        <nav class="nav" id="nav">
+            <!-- nav center -->
+            <div class="nav-center">
+                <!-- nav header -->
+                <div class="nav-header">
+                    <!-- logo -->
+                    <a href="index.html" class="nav-logo"
+                        >aidar<span>Dev</span></a
+                    >
+                    <!-- end of logo -->
 
-</head>
+                    <!-- toggle button -->
+                    <button class="nav-btn" id="nav-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <!-- end of toggle button -->
+                </div>
+                <!-- end of nav header -->
 
-<body>
+                <!-- nav links -->
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">about</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">projects</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">contact</a>
+                    </li>
+                </ul>
+                <!-- end of nav links -->
+            </div>
+            <!-- end of nav center -->
+        </nav>
+        <!-- end of navbar -->
 
-  <!-- navbar -->
-  <nav class="nav" id="nav">
+        <!-- sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <!-- parent div -->
+            <div>
+                <!-- close btn -->
+                <button class="close-btn" id="close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <!-- end of close btn -->
 
-    <!-- nav center -->
-    <div class="nav-center">
+                <!-- sidebar links -->
+                <ul class="sidebar-links">
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">about</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">projects</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">contact</a>
+                    </li>
+                </ul>
+                <!-- end of sidebar links -->
 
-      <!-- nav header -->
-      <div class="nav-header">
+                <!-- social icons -->
+                <ul class="social-icons">
+                    <!-- LinkedIn -->
+                    <li>
+                        <a
+                            href="https://www.linkedin.com/in/aidar-assylbekov/"
+                            class="social-icon"
+                            target="_blank"
+                        >
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <!-- end of LinkedIn -->
 
-        <!-- logo -->
-        <a href="index.html" class="nav-logo">aidar<span>Dev</span></a>
-        <!-- end of logo -->
+                    <!-- GitHub -->
+                    <li>
+                        <a
+                            href="https://github.com/stormymayday"
+                            class="social-icon"
+                            target="_blank"
+                        >
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <!-- end of GitHub -->
+                </ul>
+                <!-- end of social icons -->
+            </div>
+            <!-- end of parent div -->
+        </aside>
+        <!-- end of sidebar -->
 
-        <!-- toggle button -->
-        <button class="nav-btn" id="nav-btn">
-          <i class="fas fa-bars"></i>
-        </button>
-        <!-- end of toggle button -->
+        <!-- header -->
+        <header class="hero">
+            <!-- hero center -->
+            <div class="section-center hero-center">
+                <!-- hero info -->
+                <article class="hero-info">
+                    <div class="underline"></div>
+                    <h1>i'm aidar</h1>
+                    <h4>software engineer</h4>
+                    <a href="contact.html" class="btn hero-btn">contact me</a>
 
-      </div>
-      <!-- end of nav header -->
+                    <!-- social icons -->
+                    <ul class="social-icons hero-icons">
+                        <!-- LinkedIn -->
+                        <li>
+                            <a
+                                href="https://www.linkedin.com/in/aidar-assylbekov/"
+                                class="social-icon"
+                                target="_blank"
+                            >
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <!-- end of LinkedIn -->
 
-      <!-- nav links -->
-      <ul class="nav-links">
-        <li>
-          <a href="index.html">home</a>
-        </li>
-        <li>
-          <a href="about.html">about</a>
-        </li>
-        <li>
-          <a href="projects.html">projects</a>
-        </li>
-        <li>
-          <a href="contact.html">contact</a>
-        </li>
-      </ul>
-      <!-- end of nav links -->
+                        <!-- GitHub -->
+                        <li>
+                            <a
+                                href="https://github.com/stormymayday"
+                                class="social-icon"
+                                target="_blank"
+                            >
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <!-- end of GitHub -->
+                    </ul>
+                    <!-- end of social icons -->
+                </article>
+                <!-- end of hero info -->
 
-    </div>
-    <!-- end of nav center -->
+                <!-- hero img -->
+                <article class="hero-img">
+                    <img
+                        src="./images/hero.svg"
+                        class="hero-photo"
+                        alt="developer"
+                    />
+                </article>
+                <!-- end of hero img -->
+            </div>
+            <!-- end of hero center -->
+        </header>
+        <!-- end of header -->
 
-  </nav>
-  <!-- end of navbar -->
+        <!-- about -->
+        <section class="section about" id="about">
+            <!-- about center -->
+            <div class="section-center about-center">
+                <!-- about img -->
+                <article class="about-img">
+                    <img
+                        src="./images/pexels-ekaterina-bolovtsova-6193646.jpg"
+                        alt="about"
+                        class="about-img"
+                    />
+                </article>
+                <!-- end of about img -->
 
-  <!-- sidebar -->
-  <aside class="sidebar" id="sidebar">
+                <!-- about info -->
+                <article class="about-info">
+                    <!-- section title -->
+                    <div class="section-title about-title">
+                        <h2>about</h2>
+                        <div class="underline"></div>
+                    </div>
+                    <!-- end of section title -->
 
-    <!-- parent div -->
-    <div>
+                    <p>
+                        Software Engineer with experience in requirements
+                        scoping, scalable web application development, and
+                        system integration for organizations ranging from
+                        healthcare facilities to global enterprises. I excel at
+                        learning new skills and applying them in practice.
+                    </p>
 
-      <!-- close btn -->
-      <button class="close-btn" id="close-btn">
-        <i class="fas fa-times"></i>
-      </button>
-      <!-- end of close btn -->
+                    <!-- <a href="about.html" class="btn">about me</a> -->
+                </article>
+                <!-- end of about info -->
+            </div>
+            <!-- end of about center -->
+        </section>
+        <!-- end of about -->
 
-      <!-- sidebar links -->
-      <ul class="sidebar-links">
-        <li>
-          <a href="index.html">home</a>
-        </li>
-        <li>
-          <a href="about.html">about</a>
-        </li>
-        <li>
-          <a href="projects.html">projects</a>
-        </li>
-        <li>
-          <a href="contact.html">contact</a>
-        </li>
-      </ul>
-      <!-- end of sidebar links -->
+        <!-- projects -->
+        <section class="section projects bg-grey">
+            <!-- section title -->
+            <div class="section-title">
+                <h2>featured projects</h2>
+                <div class="underline"></div>
 
-      <!-- social icons -->
-      <ul class="social-icons">
-
-        <!-- LinkedIn -->
-        <li>
-          <a href="https://www.linkedin.com/in/aidar-assylbekov/" class="social-icon" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <!-- end of LinkedIn -->
-
-        <!-- GitHub -->
-        <li>
-          <a href="https://github.com/stormymayday" class="social-icon" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-        <!-- end of GitHub -->
-
-      </ul>
-      <!-- end of social icons -->
-
-    </div>
-    <!-- end of parent div -->
-
-  </aside>
-  <!-- end of sidebar -->
-
-  <!-- header -->
-  <header class="hero">
-
-    <!-- hero center -->
-    <div class="section-center hero-center">
-
-      <!-- hero info -->
-      <article class="hero-info">
-
-        <div class="underline"></div>
-        <h1>i'm aidar</h1>
-        <h4>software engineer</h4>
-        <a href="contact.html" class="btn hero-btn">contact me</a>
-
-        <!-- social icons -->
-        <ul class="social-icons hero-icons">
-
-          <!-- LinkedIn -->
-          <li>
-            <a href="https://www.linkedin.com/in/aidar-assylbekov/" class="social-icon" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <!-- end of LinkedIn -->
-
-          <!-- GitHub -->
-          <li>
-            <a href="https://github.com/stormymayday" class="social-icon" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-          <!-- end of GitHub -->
-
-        </ul>
-        <!-- end of social icons -->
-
-      </article>
-      <!-- end of hero info -->
-
-      <!-- hero img -->
-      <article class="hero-img">
-        <img src="./images/hero.svg" class="hero-photo" alt="developer">
-      </article>
-      <!-- end of hero img -->
-
-    </div>
-    <!-- end of hero center -->
-
-  </header>
-  <!-- end of header -->
-
-  <!-- about -->
-  <section class="section about" id="about">
-
-    <!-- about center -->
-    <div class="section-center about-center">
-
-      <!-- about img -->
-      <article class="about-img">
-        <img src="./images/pexels-ekaterina-bolovtsova-6193646.jpg" alt="about" class="about-img" />
-      </article>
-      <!-- end of about img -->
-
-      <!-- about info -->
-      <article class="about-info">
-
-        <!-- section title -->
-        <div class="section-title about-title">
-          <h2>about</h2>
-          <div class="underline"></div>
-        </div>
-        <!-- end of section title -->
-
-        <p>Software Engineer with experience in requirements scoping, scalable web application
-          development, and system integration
-          for organizations ranging from healthcare facilities to global enterprises. I excel at learning new skills and
-          applying
-          them in practice.</p>
-
-        <!-- <a href="about.html" class="btn">about me</a> -->
-
-      </article>
-      <!-- end of about info -->
-
-    </div>
-    <!-- end of about center -->
-
-  </section>
-  <!-- end of about -->
-
-  <!-- projects -->
-  <section class="section projects bg-grey">
-
-    <!-- section title -->
-    <div class="section-title">
-      <h2>featured projects</h2>
-      <div class="underline"></div>
-
-      <!-- <p class="projects-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum harum quaerat officia
+                <!-- <p class="projects-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum harum quaerat officia
         mollitia temporibus ab vel explicabo ex voluptatibus aut? Sint, quidem sed. Iste debitis, voluptatem sapiente
         saepe labore dolor, pariatur omnis iusto quo inventore at nihil, excepturi dolore laborum.</p> -->
-
-    </div>
-    <!-- end of section title -->
-
-    <!-- projects center -->
-    <div class="section-center projects-center">
-
-      <!-- first project -->
-      <a href="projects.html" class="project-1">
-        <article class="project">
-
-          <!-- project img -->
-          <img src="./images/project-1.jpeg" alt="project one" class="project-img" />
-          <!-- end of project img -->
-
-          <!-- project info -->
-          <div class="project-info">
-            <h4>project title</h4>
-            <p>client name</p>
-          </div>
-          <!-- end of project info -->
-
-        </article>
-      </a>
-      <!-- end of first project -->
-
-      <!-- second project -->
-      <a href="projects.html" class="project-2">
-        <article class="project">
-
-          <!-- project img -->
-          <img src="./images/project-2.jpeg" alt="project one" class="project-img" />
-          <!-- end of project img -->
-
-          <!-- project info -->
-          <div class="project-info">
-            <h4>project title</h4>
-            <p>client name</p>
-          </div>
-          <!-- end of project info -->
-
-        </article>
-      </a>
-      <!-- end of second project -->
-
-      <!-- third project -->
-      <a href="projects.html" class="project-3">
-        <article class="project">
-
-          <!-- project img -->
-          <img src="./images/project-3.jpeg" alt="project one" class="project-img" />
-          <!-- end of project img -->
-
-          <!-- project info -->
-          <div class="project-info">
-            <h4>project title</h4>
-            <p>client name</p>
-          </div>
-          <!-- end of project info -->
-
-        </article>
-      </a>
-      <!-- end of third project -->
-
-      <!-- fourth project -->
-      <a href="projects.html" class="project-4">
-        <article class="project">
-
-          <!-- project img -->
-          <img src="./images/project-4.jpeg" alt="project one" class="project-img" />
-          <!-- end of project img -->
-
-          <!-- project info -->
-          <div class="project-info">
-            <h4>project title</h4>
-            <p>client name</p>
-          </div>
-          <!-- end of project info -->
-
-        </article>
-      </a>
-      <!-- end of fourth project -->
-
-    </div>
-    <!-- end of projects center -->
-
-    <a href="projects.html" class="btn">all projects</a>
-
-  </section>
-  <!-- end of projects -->
-
-  <!-- timeline -->
-  <section class="section timeline">
-
-    <!-- section title -->
-    <div class="section-title">
-      <h2>resume</h2>
-      <div class="underline"></div>
-    </div>
-    <!-- end of section title -->
-
-    <!-- timeline center -->
-    <div class="section-center timeline-center">
-
-      <!-- single timeline item -->
-      <article class="timeline-item">
-        <h3>Software Engineer</h3>
-        <h4>iDE, Denver, CO, USA</h4>
-        <h5>Apr 2021 – Present</h5>
-        <p>
-          <i class="fa-solid fa-angles-right job-icon"></i>
-          Developed custom Salesforce UIs using Lightning Web Components framework <br />
-          <i class="fa-solid fa-angles-right  job-icon"></i>
-          Rewritten the blockchaincoffeebeans.com application using the MERN stack to improve scalability <br />
-          <i class="fa-solid fa-angles-right  job-icon"></i>
-          Implemented system integration between Kiva and Salesforce <br />
-          <i class="fa-solid fa-angles-right  job-icon"></i>
-          Developed applications and automated processes on the Salesforce platform <br />
-          <i class="fa-solid fa-angles-right  job-icon"></i>
-          Acted as administrator for Salesforce and Google Workspace
-        </p>
-        <span class="number">4</span>
-      </article>
-      <!-- end of single timeline item -->
-
-      <!-- single timeline item -->
-      <article class="timeline-item">
-        <h3>Software Engineer Intern</h3>
-        <h4>IDE, Denver, CO, USA</h4>
-        <h5>Aug 2020 – Mar 2021</h5>
-        <p>
-          <i class="fa-solid fa-angles-right  job-icon"></i>
-          Developed a web application for the Blockchain Coffee Beans project which has helped to increase the 2020
-          revenue of the participating coffee farmers in Honduras by 36% <br />
-          <i class="fa-solid fa-angles-right  job-icon"></i>
-          Developed an employee intranet site on Salesforce Experience Cloud
-        </p>
-        <span class="number">3</span>
-      </article>
-      <!-- end of single timeline item -->
-
-      <!-- single timeline item -->
-      <article class="timeline-item">
-        <h3>Web Developer</h3>
-        <h4>KRAS, Almaty, Kazakhstan</h4>
-        <h5>Nov 2016 – Sep 2018</h5>
-        <p>
-          <i class="fa-solid fa-angles-right  job-icon"></i>
-          Developed and maintained the company website <br />
-          <i class="fa-solid fa-angles-right  job-icon"></i>
-          Increased traffic by making the website mobile friendly <br />
-          <i class="fa-solid fa-angles-right  job-icon"></i>
-          Improved performance by reducing the size of static assets
-        </p>
-        <span class="number">2</span>
-      </article>
-      <!-- end of single timeline item -->
-
-      <!-- single timeline item -->
-      <article class="timeline-item">
-        <h3>Software Engineer Intern</h3>
-        <h4>MULTISOFT LTD, Almaty, Kazakhstan</h4>
-        <h5>Jul 2015 – Feb 2016</h5>
-        <p>
-          <i class="fa-solid fa-angles-right  job-icon"></i>
-          Assisted in the design and development of relational databases <br />
-          <i class="fa-solid fa-angles-right  job-icon"></i>
-          Performed analysis, testing, and documentation of database tables <br />
-          <i class="fa-solid fa-angles-right  job-icon"></i>
-          Analyzed SQL queries to improve their performance
-        </p>
-        <span class="number">1</span>
-      </article>
-      <!-- end of single timeline item -->
-
-    </div>
-    <!-- end of timeline center -->
-
-  </section>
-  <!--end of  timeline -->
-
-  <!-- services -->
-  <section class="section services bg-grey">
-
-    <!-- section title -->
-    <div class="section-title">
-      <h2>services</h2>
-      <div class="underline"></div>
-    </div>
-    <!-- end of section title -->
-
-    <!-- services center -->
-    <div class="services-center section-center">
-
-      <!-- first service -->
-      <article class="service">
-        <i class="fas fa-code service-icon"></i>
-        <h4>web development</h4>
-        <div class="underline"></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius aperiam, nostrum doloremque fugiat rerum
-          provident aut harum ipsam veniam. Provident?</p>
-      </article>
-      <!-- end of first service -->
-
-      <!-- second service -->
-      <article class="service">
-        <i class="fab fa-sketch service-icon"></i>
-        <h4>web design</h4>
-        <div class="underline"></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius aperiam, nostrum doloremque fugiat rerum
-          provident aut harum ipsam veniam. Provident?</p>
-      </article>
-      <!-- end of second service -->
-
-      <!-- third service -->
-      <article class="service">
-        <i class="fab fa-android service-icon"></i>
-        <h4>app design</h4>
-        <div class="underline"></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius aperiam, nostrum doloremque fugiat rerum
-          provident aut harum ipsam veniam. Provident?</p>
-      </article>
-      <!-- end of third service -->
-
-    </div>
-    <!-- end of services center -->
-
-  </section>
-  <!-- end of services -->
-
-  <!-- connect -->
-  <section class="connect">
-
-    <!-- video -->
-    <video autoplay muted loop class="video-container" poster="./images/project-1.jpeg">
-      <source src="./videos/pexels-pavel-danilyuk-5495781.mp4" type="video/mp4" />
-      <!-- fallback -->
-      Sorry, your browser does not support embedded videos.
-      <!-- end of fallback -->
-    </video>
-    <!-- end of video -->
-
-    <!-- video banner -->
-    <div class="video-banner">
-
-      <!-- section title -->
-      <div class="section-title">
-        <h2>let's get in touch</h2>
-        <div class="underline"></div>
-      </div>
-      <!-- end of section title -->
-
-      <p class="video-text">
-        I would love to hear about your project and how I could help. Please fill in the form, and I'll get back to you
-        as soon as possible.
-      </p>
-
-      <!-- contact form -->
-      <article class="contact-form">
-
-        <!-- <h3>contact us</h3> -->
-
-        <!-- form -->
-        <form action="">
-
-          <!-- form group -->
-          <div class="form-group">
-
-            <!-- inputs -->
-
-            <!-- name input -->
-            <input type="text" placeholder="name" class="form-control" name="name" />
-            <!-- end of name input -->
-
-            <!-- email input -->
-            <input type="email" placeholder="email" class="form-control" name="email" />
-            <!-- end of email input -->
-
-            <!-- message textarea input -->
-            <textarea name="message" placeholder="message" class="form-control" rows="5" maxlength="250"></textarea>
-            <!-- end of message textarea input -->
-
-            <!-- end of inputs -->
-
-          </div>
-          <!-- end of form group -->
-
-          <!-- submit button -->
-          <button type="submit" class="btn submit-btn" id="submit">submit</button>
-          <!-- end of submit button -->
-
-        </form>
-        <!-- end of form -->
-
-      </article>
-      <!-- end of contact form -->
-
-      <!-- <a href="contact.html" class="btn">contact me</a> -->
-
-    </div>
-    <!-- end of video banner -->
-
-  </section>
-  <!-- end of connect -->
-
-  <!-- skills -->
-  <section class="section skills">
-
-    <!-- section title -->
-    <div class="section-title">
-      <h2>skills</h2>
-      <div class="underline"></div>
-    </div>
-    <!-- end of section title -->
-
-    <!-- skills center -->
-    <div class="section-center skills-center">
-
-      <!-- front end -->
-      <article>
-
-        <h3>front end</h3>
-
-        <!-- single skill -->
-        <div class="skill">
-          <p>HTML/CSS</p>
-
-          <div class="skill-container">
-
-            <!-- progress bar -->
-            <div class="skill-value"></div>
-            <!-- end of progress bar -->
-
-            <p class="skill-text">50%</p>
-
-          </div>
-
-        </div>
-        <!-- end of single skill -->
-
-        <!-- single skill -->
-        <div class="skill">
-          <p>JavaScript</p>
-
-          <div class="skill-container">
-
-            <!-- progress bar -->
-            <div class="skill-value value-70"></div>
-            <!-- end of progress bar -->
-
-            <p class="skill-text skill-text-70">70%</p>
-
-          </div>
-
-        </div>
-        <!-- end of single skill -->
-
-        <!-- single skill -->
-        <div class="skill">
-          <p>React</p>
-
-          <div class="skill-container">
-
-            <!-- progress bar -->
-            <div class="skill-value value-80"></div>
-            <!-- end of progress bar -->
-
-            <p class="skill-text skill-text-80">80%</p>
-
-          </div>
-
-        </div>
-        <!-- end of single skill -->
-
-      </article>
-      <!-- end of front end -->
-
-      <!-- back end -->
-      <article>
-
-        <h3>back end</h3>
-
-        <!-- single skill -->
-        <div class="skill">
-          <p>Node</p>
-
-          <div class="skill-container">
-
-            <!-- progress bar -->
-            <div class="skill-value"></div>
-            <!-- end of progress bar -->
-
-            <p class="skill-text">50%</p>
-
-          </div>
-
-        </div>
-        <!-- end of single skill -->
-
-        <!-- single skill -->
-        <div class="skill">
-          <p>PHP</p>
-
-          <div class="skill-container">
-
-            <!-- progress bar -->
-            <div class="skill-value value-70"></div>
-            <!-- end of progress bar -->
-
-            <p class="skill-text skill-text-70">70%</p>
-
-          </div>
-
-        </div>
-        <!-- end of single skill -->
-
-        <!-- single skill -->
-        <div class="skill">
-          <p>Python</p>
-
-          <div class="skill-container">
-
-            <!-- progress bar -->
-            <div class="skill-value value-80"></div>
-            <!-- end of progress bar -->
-
-            <p class="skill-text skill-text-80">80%</p>
-
-          </div>
-
-        </div>
-        <!-- end of single skill -->
-
-      </article>
-      <!-- end of back end -->
-
-    </div>
-    <!-- end of skills center -->
-
-  </section>
-  <!-- end of skills -->
-
-  <!-- blog -->
-  <section class="section blog">
-
-    <!-- section title -->
-    <div class="section-title">
-      <h2>blog</h2>
-      <div class="underline"></div>
-    </div>
-    <!-- end of section title -->
-
-    <!-- blog center -->
-    <div class="section-center blog-center">
-
-      <!-- first article -->
-      <div class="card">
-
-        <!-- card front -->
-        <div class="card-side card-front">
-
-          <!-- card img -->
-          <img src="./images/project-1.jpeg" alt="apple laptop and various mobile devices" />
-          <!-- end of card img -->
-
-          <!-- card info -->
-          <div class="card-info">
-
-            <h4>article title</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odit quis ducimus corporis at
-              facilis
-              ab pariatur quidem alias quisquam.</p>
-
-            <!-- card footer -->
-            <div class="card-footer">
-              <img src="./images/hero-img-small.jpeg" alt="author" />
-              <p>7 mins read</p>
             </div>
-            <!-- end of card footer -->
+            <!-- end of section title -->
 
-          </div>
-          <!-- end of card info -->
+            <!-- projects center -->
+            <div class="section-center projects-center">
+                <!-- first project -->
+                <a href="projects.html" class="project-1">
+                    <article class="project">
+                        <!-- project img -->
+                        <img
+                            src="./images/project-1.jpeg"
+                            alt="project one"
+                            class="project-img"
+                        />
+                        <!-- end of project img -->
 
-        </div>
-        <!-- end of card front -->
+                        <!-- project info -->
+                        <div class="project-info">
+                            <h4>project title</h4>
+                            <p>client name</p>
+                        </div>
+                        <!-- end of project info -->
+                    </article>
+                </a>
+                <!-- end of first project -->
 
-        <!-- card back -->
-        <div class="card-side card-back">
+                <!-- second project -->
+                <a href="projects.html" class="project-2">
+                    <article class="project">
+                        <!-- project img -->
+                        <img
+                            src="./images/project-2.jpeg"
+                            alt="project one"
+                            class="project-img"
+                        />
+                        <!-- end of project img -->
 
-          <button class="btn">read more</button>
+                        <!-- project info -->
+                        <div class="project-info">
+                            <h4>project title</h4>
+                            <p>client name</p>
+                        </div>
+                        <!-- end of project info -->
+                    </article>
+                </a>
+                <!-- end of second project -->
 
-        </div>
-        <!-- end of card back -->
+                <!-- third project -->
+                <a href="projects.html" class="project-3">
+                    <article class="project">
+                        <!-- project img -->
+                        <img
+                            src="./images/project-3.jpeg"
+                            alt="project one"
+                            class="project-img"
+                        />
+                        <!-- end of project img -->
 
-      </div>
-      <!-- end of first article -->
+                        <!-- project info -->
+                        <div class="project-info">
+                            <h4>project title</h4>
+                            <p>client name</p>
+                        </div>
+                        <!-- end of project info -->
+                    </article>
+                </a>
+                <!-- end of third project -->
 
-      <!-- second article -->
-      <div class="card">
+                <!-- fourth project -->
+                <a href="projects.html" class="project-4">
+                    <article class="project">
+                        <!-- project img -->
+                        <img
+                            src="./images/project-4.jpeg"
+                            alt="project one"
+                            class="project-img"
+                        />
+                        <!-- end of project img -->
 
-        <!-- card front -->
-        <div class="card-side card-front">
-
-          <!-- card img -->
-          <img src="./images/project-2.jpeg" alt="apple laptop and various mobile devices" />
-          <!-- end of card img -->
-
-          <!-- card info -->
-          <div class="card-info">
-
-            <h4>article title</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odit quis ducimus corporis at
-              facilis
-              ab pariatur quidem alias quisquam.</p>
-
-            <!-- card footer -->
-            <div class="card-footer">
-              <img src="./images/hero-img-small.jpeg" alt="author" />
-              <p>7 mins read</p>
+                        <!-- project info -->
+                        <div class="project-info">
+                            <h4>project title</h4>
+                            <p>client name</p>
+                        </div>
+                        <!-- end of project info -->
+                    </article>
+                </a>
+                <!-- end of fourth project -->
             </div>
-            <!-- end of card footer -->
+            <!-- end of projects center -->
 
-          </div>
-          <!-- end of card info -->
+            <a href="projects.html" class="btn">all projects</a>
+        </section>
+        <!-- end of projects -->
 
-        </div>
-        <!-- end of card front -->
-
-        <!-- card back -->
-        <div class="card-side card-back">
-
-          <button class="btn">read more</button>
-
-        </div>
-        <!-- end of card back -->
-
-      </div>
-      <!-- end of second article -->
-
-      <!-- third article -->
-      <div class="card">
-
-        <!-- card front -->
-        <div class="card-side card-front">
-
-          <!-- card img -->
-          <img src="./images/project-3.jpeg" alt="apple laptop and various mobile devices" />
-          <!-- end of card img -->
-
-          <!-- card info -->
-          <div class="card-info">
-
-            <h4>article title</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odit quis ducimus corporis at
-              facilis
-              ab pariatur quidem alias quisquam.</p>
-
-            <!-- card footer -->
-            <div class="card-footer">
-              <img src="./images/hero-img-small.jpeg" alt="author" />
-              <p>7 mins read</p>
+        <!-- timeline -->
+        <section class="section timeline">
+            <!-- section title -->
+            <div class="section-title">
+                <h2>resume</h2>
+                <div class="underline"></div>
             </div>
-            <!-- end of card footer -->
+            <!-- end of section title -->
 
-          </div>
-          <!-- end of card info -->
+            <!-- timeline center -->
+            <div class="section-center timeline-center">
+                <!-- single timeline item -->
+                <article class="timeline-item">
+                    <h3>Software Engineer</h3>
+                    <h4>iDE, Denver, CO, USA</h4>
+                    <h5>Apr 2021 - Apr 2023</h5>
+                    <p>
+                        <i class="fa-solid fa-angles-right job-icon"></i>
+                        Developed custom Salesforce UIs using the Lightning Web
+                        Components framework and Aura to enhance user experience
+                        and streamline application functionality <br />
+                        <i class="fa-solid fa-angles-right job-icon"></i>
+                        Rewrote the Blockchain Coffee Beans project application
+                        using the MERN stack to improve scalability, resulting
+                        in better performance and increased user engagement<br />
+                        <i class="fa-solid fa-angles-right job-icon"></i>
+                        Implemented system integration between Kiva and
+                        Salesforce to facilitate seamless data exchange,
+                        improving operational efficiency<br />
+                        <i class="fa-solid fa-angles-right job-icon"></i>
+                        Developed applications and automated processes on the
+                        Salesforce platform to reduce manual workload and
+                        enhance productivity across teams
+                    </p>
+                    <span class="number">4</span>
+                </article>
+                <!-- end of single timeline item -->
 
-        </div>
-        <!-- end of card front -->
+                <!-- single timeline item -->
+                <article class="timeline-item">
+                    <h3>Software Engineer Intern</h3>
+                    <h4>IDE, Denver, CO, USA</h4>
+                    <h5>Aug 2020 – Mar 2021</h5>
+                    <p>
+                        <i class="fa-solid fa-angles-right job-icon"></i>
+                        Developed an application for the Blockchain Coffee Beans
+                        project, which increased the 2020 revenue of
+                        participating coffee farmers in Honduras by 36%,
+                        contributing to their economic sustainability<br />
+                        <i class="fa-solid fa-angles-right job-icon"></i>
+                        Created an employee intranet site on Salesforce
+                        Experience Cloud to enhance internal communication and
+                        collaboration among team members<br />
+                        <i class="fa-solid fa-angles-right job-icon"></i>
+                        Assisted in the design and development of custom
+                        Salesforce applications, improving functionality and
+                        user experience for end-users
+                    </p>
+                    <span class="number">3</span>
+                </article>
+                <!-- end of single timeline item -->
 
-        <!-- card back -->
-        <div class="card-side card-back">
+                <!-- single timeline item -->
+                <article class="timeline-item">
+                    <h3>Web Developer</h3>
+                    <h4>KRAS, Almaty, Kazakhstan</h4>
+                    <h5>Feb 2018 - Sep 2018</h5>
+                    <p>
+                        <i class="fa-solid fa-angles-right job-icon"></i>
+                        Converted Photoshop PSDs into HTML and CSS files to
+                        create responsive and visually appealing web pages that
+                        enhanced user experience <br />
+                        <i class="fa-solid fa-angles-right job-icon"></i>
+                        Maintained and refactored the company website’s user
+                        interface to improve usability and performance,
+                        resulting in a more intuitive navigation experience for
+                        users
+                        <br />
+                        <i class="fa-solid fa-angles-right job-icon"></i>
+                        Customized WordPress themes and components to meet
+                        client specifications, enhancing the overall
+                        functionality and aesthetic appeal of the websites
+                    </p>
+                    <span class="number">2</span>
+                </article>
+                <!-- end of single timeline item -->
 
-          <button class="btn">read more</button>
-
-        </div>
-        <!-- end of card back -->
-
-      </div>
-      <!-- end of third article -->
-
-      <!-- fourth article -->
-      <div class="card">
-
-        <!-- card front -->
-        <div class="card-side card-front">
-
-          <!-- card img -->
-          <img src="./images/project-4.jpeg" alt="apple laptop and various mobile devices" />
-          <!-- end of card img -->
-
-          <!-- card info -->
-          <div class="card-info">
-
-            <h4>article title</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odit quis ducimus corporis at
-              facilis
-              ab pariatur quidem alias quisquam.</p>
-
-            <!-- card footer -->
-            <div class="card-footer">
-              <img src="./images/hero-img-small.jpeg" alt="author" />
-              <p>7 mins read</p>
+                <!-- single timeline item -->
+                <article class="timeline-item">
+                    <h3>Web Developer Intern</h3>
+                    <h4>KRAS, Almaty, Kazakhstan</h4>
+                    <h5>Jul 2017 - Jan 2018</h5>
+                    <p>
+                        <i class="fa-solid fa-angles-right job-icon"></i>
+                        Developed and maintained the company website to ensure
+                        optimal functionality and user experience, leading to
+                        increased user engagement<br />
+                        <i class="fa-solid fa-angles-right job-icon"></i>
+                        Increased traffic by making the website mobile-friendly,
+                        resulting in a significant boost in user accessibility
+                        and satisfaction <br />
+                        <i class="fa-solid fa-angles-right job-icon"></i>
+                        Improved performance by reducing the size of static
+                        assets, which enhanced loading times and overall site
+                        efficiency.
+                    </p>
+                    <span class="number">1</span>
+                </article>
+                <!-- end of single timeline item -->
             </div>
-            <!-- end of card footer -->
+            <!-- end of timeline center -->
+        </section>
+        <!--end of  timeline -->
 
-          </div>
-          <!-- end of card info -->
+        <!-- services -->
+        <section class="section services bg-grey">
+            <!-- section title -->
+            <div class="section-title">
+                <h2>services</h2>
+                <div class="underline"></div>
+            </div>
+            <!-- end of section title -->
 
-        </div>
-        <!-- end of card front -->
+            <!-- services center -->
+            <div class="services-center section-center">
+                <!-- first service -->
+                <article class="service">
+                    <i class="fas fa-code service-icon"></i>
+                    <h4>web development</h4>
+                    <div class="underline"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eius aperiam, nostrum doloremque fugiat rerum provident
+                        aut harum ipsam veniam. Provident?
+                    </p>
+                </article>
+                <!-- end of first service -->
 
-        <!-- card back -->
-        <div class="card-side card-back">
+                <!-- second service -->
+                <article class="service">
+                    <i class="fab fa-sketch service-icon"></i>
+                    <h4>web design</h4>
+                    <div class="underline"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eius aperiam, nostrum doloremque fugiat rerum provident
+                        aut harum ipsam veniam. Provident?
+                    </p>
+                </article>
+                <!-- end of second service -->
 
-          <button class="btn">read more</button>
+                <!-- third service -->
+                <article class="service">
+                    <i class="fab fa-android service-icon"></i>
+                    <h4>app design</h4>
+                    <div class="underline"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eius aperiam, nostrum doloremque fugiat rerum provident
+                        aut harum ipsam veniam. Provident?
+                    </p>
+                </article>
+                <!-- end of third service -->
+            </div>
+            <!-- end of services center -->
+        </section>
+        <!-- end of services -->
 
-        </div>
-        <!-- end of card back -->
+        <!-- connect -->
+        <section class="connect">
+            <!-- video -->
+            <video
+                autoplay
+                muted
+                loop
+                class="video-container"
+                poster="./images/project-1.jpeg"
+            >
+                <source
+                    src="./videos/pexels-pavel-danilyuk-5495781.mp4"
+                    type="video/mp4"
+                />
+                <!-- fallback -->
+                Sorry, your browser does not support embedded videos.
+                <!-- end of fallback -->
+            </video>
+            <!-- end of video -->
 
-      </div>
-      <!-- end of fourth article -->
+            <!-- video banner -->
+            <div class="video-banner">
+                <!-- section title -->
+                <div class="section-title">
+                    <h2>let's get in touch</h2>
+                    <div class="underline"></div>
+                </div>
+                <!-- end of section title -->
 
-    </div>
-    <!-- end of blog center -->
+                <p class="video-text">
+                    I would love to hear about your project and how I could
+                    help. Please fill in the form, and I'll get back to you as
+                    soon as possible.
+                </p>
 
-  </section>
-  <!--end of  blog -->
+                <!-- contact form -->
+                <article class="contact-form">
+                    <!-- <h3>contact us</h3> -->
 
-  <!-- footer -->
-  <footer class="footer">
+                    <!-- form -->
+                    <form action="">
+                        <!-- form group -->
+                        <div class="form-group">
+                            <!-- inputs -->
 
-    <!-- social icons -->
-    <ul class="social-icons">
+                            <!-- name input -->
+                            <input
+                                type="text"
+                                placeholder="name"
+                                class="form-control"
+                                name="name"
+                            />
+                            <!-- end of name input -->
 
-      <!-- LinkedIn -->
-      <li>
-        <a href="https://www.linkedin.com/in/aidar-assylbekov/" class="social-icon" target="_blank">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </li>
-      <!-- end of LinkedIn -->
+                            <!-- email input -->
+                            <input
+                                type="email"
+                                placeholder="email"
+                                class="form-control"
+                                name="email"
+                            />
+                            <!-- end of email input -->
 
-      <!-- GitHub -->
-      <li>
-        <a href="https://github.com/stormymayday" class="social-icon" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      <!-- end of GitHub -->
+                            <!-- message textarea input -->
+                            <textarea
+                                name="message"
+                                placeholder="message"
+                                class="form-control"
+                                rows="5"
+                                maxlength="250"
+                            ></textarea>
+                            <!-- end of message textarea input -->
 
-    </ul>
-    <!-- end of social icons -->
+                            <!-- end of inputs -->
+                        </div>
+                        <!-- end of form group -->
 
-  </footer>
-  <!-- end of footer -->
+                        <!-- submit button -->
+                        <button
+                            type="submit"
+                            class="btn submit-btn"
+                            id="submit"
+                        >
+                            submit
+                        </button>
+                        <!-- end of submit button -->
+                    </form>
+                    <!-- end of form -->
+                </article>
+                <!-- end of contact form -->
 
-  <!-- js -->
-  <script src="./js/app.js"></script>
-  <!-- end of js -->
-</body>
+                <!-- <a href="contact.html" class="btn">contact me</a> -->
+            </div>
+            <!-- end of video banner -->
+        </section>
+        <!-- end of connect -->
 
+        <!-- skills -->
+        <section class="section skills">
+            <!-- section title -->
+            <div class="section-title">
+                <h2>skills</h2>
+                <div class="underline"></div>
+            </div>
+            <!-- end of section title -->
+
+            <!-- skills center -->
+            <div class="section-center skills-center">
+                <!-- front end -->
+                <article>
+                    <h3>front end</h3>
+
+                    <!-- single skill -->
+                    <div class="skill">
+                        <p>HTML/CSS</p>
+
+                        <div class="skill-container">
+                            <!-- progress bar -->
+                            <div class="skill-value"></div>
+                            <!-- end of progress bar -->
+
+                            <p class="skill-text">50%</p>
+                        </div>
+                    </div>
+                    <!-- end of single skill -->
+
+                    <!-- single skill -->
+                    <div class="skill">
+                        <p>JavaScript</p>
+
+                        <div class="skill-container">
+                            <!-- progress bar -->
+                            <div class="skill-value value-70"></div>
+                            <!-- end of progress bar -->
+
+                            <p class="skill-text skill-text-70">70%</p>
+                        </div>
+                    </div>
+                    <!-- end of single skill -->
+
+                    <!-- single skill -->
+                    <div class="skill">
+                        <p>React</p>
+
+                        <div class="skill-container">
+                            <!-- progress bar -->
+                            <div class="skill-value value-80"></div>
+                            <!-- end of progress bar -->
+
+                            <p class="skill-text skill-text-80">80%</p>
+                        </div>
+                    </div>
+                    <!-- end of single skill -->
+                </article>
+                <!-- end of front end -->
+
+                <!-- back end -->
+                <article>
+                    <h3>back end</h3>
+
+                    <!-- single skill -->
+                    <div class="skill">
+                        <p>Node</p>
+
+                        <div class="skill-container">
+                            <!-- progress bar -->
+                            <div class="skill-value"></div>
+                            <!-- end of progress bar -->
+
+                            <p class="skill-text">50%</p>
+                        </div>
+                    </div>
+                    <!-- end of single skill -->
+
+                    <!-- single skill -->
+                    <div class="skill">
+                        <p>PHP</p>
+
+                        <div class="skill-container">
+                            <!-- progress bar -->
+                            <div class="skill-value value-70"></div>
+                            <!-- end of progress bar -->
+
+                            <p class="skill-text skill-text-70">70%</p>
+                        </div>
+                    </div>
+                    <!-- end of single skill -->
+
+                    <!-- single skill -->
+                    <div class="skill">
+                        <p>Python</p>
+
+                        <div class="skill-container">
+                            <!-- progress bar -->
+                            <div class="skill-value value-80"></div>
+                            <!-- end of progress bar -->
+
+                            <p class="skill-text skill-text-80">80%</p>
+                        </div>
+                    </div>
+                    <!-- end of single skill -->
+                </article>
+                <!-- end of back end -->
+            </div>
+            <!-- end of skills center -->
+        </section>
+        <!-- end of skills -->
+
+        <!-- blog -->
+        <section class="section blog">
+            <!-- section title -->
+            <div class="section-title">
+                <h2>blog</h2>
+                <div class="underline"></div>
+            </div>
+            <!-- end of section title -->
+
+            <!-- blog center -->
+            <div class="section-center blog-center">
+                <!-- first article -->
+                <div class="card">
+                    <!-- card front -->
+                    <div class="card-side card-front">
+                        <!-- card img -->
+                        <img
+                            src="./images/project-1.jpeg"
+                            alt="apple laptop and various mobile devices"
+                        />
+                        <!-- end of card img -->
+
+                        <!-- card info -->
+                        <div class="card-info">
+                            <h4>article title</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Voluptatibus odit quis ducimus
+                                corporis at facilis ab pariatur quidem alias
+                                quisquam.
+                            </p>
+
+                            <!-- card footer -->
+                            <div class="card-footer">
+                                <img
+                                    src="./images/hero-img-small.jpeg"
+                                    alt="author"
+                                />
+                                <p>7 mins read</p>
+                            </div>
+                            <!-- end of card footer -->
+                        </div>
+                        <!-- end of card info -->
+                    </div>
+                    <!-- end of card front -->
+
+                    <!-- card back -->
+                    <div class="card-side card-back">
+                        <button class="btn">read more</button>
+                    </div>
+                    <!-- end of card back -->
+                </div>
+                <!-- end of first article -->
+
+                <!-- second article -->
+                <div class="card">
+                    <!-- card front -->
+                    <div class="card-side card-front">
+                        <!-- card img -->
+                        <img
+                            src="./images/project-2.jpeg"
+                            alt="apple laptop and various mobile devices"
+                        />
+                        <!-- end of card img -->
+
+                        <!-- card info -->
+                        <div class="card-info">
+                            <h4>article title</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Voluptatibus odit quis ducimus
+                                corporis at facilis ab pariatur quidem alias
+                                quisquam.
+                            </p>
+
+                            <!-- card footer -->
+                            <div class="card-footer">
+                                <img
+                                    src="./images/hero-img-small.jpeg"
+                                    alt="author"
+                                />
+                                <p>7 mins read</p>
+                            </div>
+                            <!-- end of card footer -->
+                        </div>
+                        <!-- end of card info -->
+                    </div>
+                    <!-- end of card front -->
+
+                    <!-- card back -->
+                    <div class="card-side card-back">
+                        <button class="btn">read more</button>
+                    </div>
+                    <!-- end of card back -->
+                </div>
+                <!-- end of second article -->
+
+                <!-- third article -->
+                <div class="card">
+                    <!-- card front -->
+                    <div class="card-side card-front">
+                        <!-- card img -->
+                        <img
+                            src="./images/project-3.jpeg"
+                            alt="apple laptop and various mobile devices"
+                        />
+                        <!-- end of card img -->
+
+                        <!-- card info -->
+                        <div class="card-info">
+                            <h4>article title</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Voluptatibus odit quis ducimus
+                                corporis at facilis ab pariatur quidem alias
+                                quisquam.
+                            </p>
+
+                            <!-- card footer -->
+                            <div class="card-footer">
+                                <img
+                                    src="./images/hero-img-small.jpeg"
+                                    alt="author"
+                                />
+                                <p>7 mins read</p>
+                            </div>
+                            <!-- end of card footer -->
+                        </div>
+                        <!-- end of card info -->
+                    </div>
+                    <!-- end of card front -->
+
+                    <!-- card back -->
+                    <div class="card-side card-back">
+                        <button class="btn">read more</button>
+                    </div>
+                    <!-- end of card back -->
+                </div>
+                <!-- end of third article -->
+
+                <!-- fourth article -->
+                <div class="card">
+                    <!-- card front -->
+                    <div class="card-side card-front">
+                        <!-- card img -->
+                        <img
+                            src="./images/project-4.jpeg"
+                            alt="apple laptop and various mobile devices"
+                        />
+                        <!-- end of card img -->
+
+                        <!-- card info -->
+                        <div class="card-info">
+                            <h4>article title</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Voluptatibus odit quis ducimus
+                                corporis at facilis ab pariatur quidem alias
+                                quisquam.
+                            </p>
+
+                            <!-- card footer -->
+                            <div class="card-footer">
+                                <img
+                                    src="./images/hero-img-small.jpeg"
+                                    alt="author"
+                                />
+                                <p>7 mins read</p>
+                            </div>
+                            <!-- end of card footer -->
+                        </div>
+                        <!-- end of card info -->
+                    </div>
+                    <!-- end of card front -->
+
+                    <!-- card back -->
+                    <div class="card-side card-back">
+                        <button class="btn">read more</button>
+                    </div>
+                    <!-- end of card back -->
+                </div>
+                <!-- end of fourth article -->
+            </div>
+            <!-- end of blog center -->
+        </section>
+        <!--end of  blog -->
+
+        <!-- footer -->
+        <footer class="footer">
+            <!-- social icons -->
+            <ul class="social-icons">
+                <!-- LinkedIn -->
+                <li>
+                    <a
+                        href="https://www.linkedin.com/in/aidar-assylbekov/"
+                        class="social-icon"
+                        target="_blank"
+                    >
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <!-- end of LinkedIn -->
+
+                <!-- GitHub -->
+                <li>
+                    <a
+                        href="https://github.com/stormymayday"
+                        class="social-icon"
+                        target="_blank"
+                    >
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <!-- end of GitHub -->
+            </ul>
+            <!-- end of social icons -->
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src="./js/app.js"></script>
+        <!-- end of js -->
+    </body>
 </html>
